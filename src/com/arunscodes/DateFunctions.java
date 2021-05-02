@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-public class DataAndTimeFunctions {
+public class DateFunctions {
 
 
     public static void main(String[] args) {
