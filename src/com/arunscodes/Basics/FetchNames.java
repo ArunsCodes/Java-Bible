@@ -1,4 +1,4 @@
-package com.arunscodes;
+package com.arunscodes.Basics;
 import java.util.Scanner;
 
 
