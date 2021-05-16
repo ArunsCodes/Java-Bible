@@ -81,6 +81,17 @@ public class LinkedListImpl {
 
     }
 
+    static void findLength(){
+        Node temp = head;
+        int count=1;
+        while(temp.next!=null){
+            count++;
+            temp=temp.next;
+        }
+
+        System.out.println("\n Count = " +count);
+    }
+
     public static void main(String[] args) {
         LinkedListImpl llist = new LinkedListImpl();
 
@@ -96,7 +107,6 @@ public class LinkedListImpl {
 
         Node four = new Node(4);
         addNodeAtFront(four,llist);
-
         addAtGivenPoint(two,5);
 
         addAtEnd(25,llist);
@@ -104,6 +114,9 @@ public class LinkedListImpl {
         deleteNode(5);
 
         deleteNode(4);
+
+        findLength();
+
 
     }
 }
