@@ -1,5 +1,10 @@
 package com.arunscodes.DataStructures;
 
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+
 public class LinkedListImpl {
     static Node head; // Head of the linked list.
 
@@ -92,6 +97,9 @@ public class LinkedListImpl {
         System.out.println("\n Count = " +count);
     }
 
+
+
+
     public static void main(String[] args) {
         LinkedListImpl llist = new LinkedListImpl();
 
@@ -116,6 +124,10 @@ public class LinkedListImpl {
         deleteNode(4);
 
         findLength();
+
+
+
+
 
 
     }
