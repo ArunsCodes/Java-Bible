@@ -1,9 +1,4 @@
-package com.arunscodes.DataStructures;
-
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
+package com.arunscodes.DataStructures.Collections;
 
 public class LinkedListImpl {
     static Node head; // Head of the linked list.

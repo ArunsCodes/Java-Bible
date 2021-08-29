@@ -1,4 +1,4 @@
-package com.arunscodes.DataStructures;
+package com.arunscodes.DataStructures.Collections;
 
 
 class BinaryTreeImpl {
