@@ -29,10 +29,12 @@ public class SetImpl {
         hashSet.add(40);
         hashSet.add(50);
 
-        Iterator<Integer> iterator = hashSet.iterator();
+        HashSet<Integer> copySet = new HashSet<>();
+        copySet.add(1);
+        copySet.addAll(hashSet);
 
-        while (iterator.hasNext()){
-            System.out.print(iterator.next() + " ");
+        for (Integer integer : hashSet) {
+            System.out.print(integer + " ");
         }
 
         System.out.println();
@@ -56,7 +58,7 @@ public class SetImpl {
         }
 
         //TreeSet Impl
-        System.out.println("==== Linked Hash Set Representation ====");
+        System.out.println("==== Tree Set Representation ====");
 
 
         treeSet.add(10);

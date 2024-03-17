@@ -29,10 +29,9 @@ public class MapImpl {
         hm2.put(new String("abc"), 3);
         hm2.put("abc", 4);
 
-        System.out.println(hm2.get( new String("abc")));
+        System.out.println("new String -" +hm2.get(new String("abc")));
 
         System.out.println(hm2.get("abc"));
-
 
 
         for(Map.Entry<String, Integer> e : hm2.entrySet()){
